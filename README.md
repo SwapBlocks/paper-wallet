@@ -1,8 +1,6 @@
-![ArkPaperWallet](https://i.imgur.com/41aMbNV.jpg)
+# SBX Paper Wallet
 
-# ARK Paper Wallet
-
-> Paper wallet generator for Ark cryptocurrency.
+> Paper wallet generator for SBX cryptocurrency.
 
 ## Getting Started
 
@@ -15,13 +13,6 @@ Open `index.html` in your favorite browser.
 4. Install bower dependencies `bower install`
 5. Build the app and watch for modifications `npm run watch`
 6. Open `index.html` in your favorite browser
-
-## Contributing
-
-* If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls), helping us catch and fix them.
-* Engage with other users and developers on [ARK Slack](https://ark.io/slack/).
-* Join the #development channel on Slack.
-* [Contribute bounties](./CONTRIBUTING.md).
 
 ## Security
 
