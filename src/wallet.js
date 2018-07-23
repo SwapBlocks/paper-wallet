@@ -17,7 +17,7 @@ angular.module('wallet', [])
         let ecpair = arkjs.ECPair.fromSeed(passphrase, networks.ark)
 
         let publicKey = ecpair.getPublicKeyBuffer().toString('hex')
-        let address = ecpair.getAddress().toString('hex')
+				let address = arkjs.crypto.getAddress(publicKey, 0x4b)
         let wif = ecpair.toWIF()
 
         return {
